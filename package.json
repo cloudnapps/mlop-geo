@@ -1,0 +1,22 @@
+{
+  "name": "mlop-geo",
+  "version": "1.0.0",
+  "description": "mlop-geo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ipengyo/mlop-geo.git"
+  },
+  "author": "ipengyo",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "iconv-lite": "^0.4.15",
+    "lodash": "4.5.0",
+    "request": "^2.74.0",
+    "request-promise": "^4.1.1"
+  }
+}
