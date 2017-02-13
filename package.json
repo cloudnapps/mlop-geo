@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ipengyo/mlop-geo.git"
+    "url": "https://github.com/cloudnapps/mlop-geo.git"
   },
-  "author": "ipengyo",
+  "author": "cloudnapps",
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.4.6",
