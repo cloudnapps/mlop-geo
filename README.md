@@ -1,6 +1,6 @@
 ## Usage example
 
-```
+```javascript
 var mlopGeocoder = require('mlop-geo');
 
 var options = {
