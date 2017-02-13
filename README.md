@@ -28,10 +28,11 @@ geocoder.reverse(
   .catch(function(err) {
     console.log(err);
   });
-  // output
-    [ { country: '中国',
-      province: '湖北',
-      city: '恩施土家族苗族自治州',
-      district: '恩施市',
-      provider: 'aliyun' } ]
+
+// output
+[ { country: '中国',
+  province: '湖北',
+  city: '恩施土家族苗族自治州',
+  district: '恩施市',
+  provider: 'aliyun' } ]
 ```
