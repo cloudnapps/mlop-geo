@@ -12,16 +12,20 @@ var options = {
 var geocoder = mlopGeocoder(options);
 
 // Using callback
-geocoder.reverse({lat: 30.2946651399,
-   lon: 109.4796537731}, function(err, res) {
+geocoder.reverse({
+  lat: 31.2303122784 ,
+  lon: 121.4735623090
+  }, function(err, res) {
   console.log(res);
 });
 
 //Or using Promise
 geocoder.reverse(
-  {lat: 30.2946651399,
-   lon: 109.4796537731}
-   )
+  {
+    lat: 31.2303122784 ,
+    lon: 121.4735623090
+  }
+  )
  .then(function(res) {
     console.log(res);
   })
@@ -30,9 +34,11 @@ geocoder.reverse(
   });
 
 // output
-[ { country: '中国',
-  province: '湖北',
-  city: '恩施土家族苗族自治州',
-  district: '恩施市',
-  provider: 'aliyun' } ]
+[ { adcode: '310101',
+    country: '中国',
+    province: '上海',
+    city: '上海',
+    district: '黄浦区',
+    provider: 'aliyun' } ]
+    
 ```
